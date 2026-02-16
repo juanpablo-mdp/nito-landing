@@ -48,7 +48,7 @@ function App() {
             <span className="tag">En Desarrollo</span>
             <h3>¿Qué problema te resolvemos hoy?</h3>
             <p>Seguimos creando herramientas simples para automatizar tu día a día. ¿Tenés alguna tarea administrativa que te vuelva loco?</p>
-            <a href="https://wa.me/?text=Hola,%20tengo%20una%20idea%20para%20Nito" className="btn-card">Contame tu idea</a>
+            <a href="https://wa.me/5491155144268?text=Hola,%20tengo%20una%20idea%20para%20Nito" className="btn-card">Contame tu idea</a>
           </div>
         </section>
 
@@ -72,7 +72,7 @@ function App() {
 
         <section className="closing-section">
           <h2>Empezá a simplificar tu negocio hoy.</h2>
-          <a href="https://wa.me/?text=Hola,%20vi%20la%20web%20de%20Nito%20y%20me%20gustar%C3%ADa%20saber%20c%C3%B3mo%20pueden%20ayudar%20a%20mi%20negocio" className="btn btn-primary">
+          <a href="https://wa.me/5491155144268?text=Hola,%20vi%20la%20web%20de%20Nito%20y%20me%20gustar%C3%ADa%20saber%20c%C3%B3mo%20pueden%20ayudar%20a%20mi%20negocio" className="btn btn-primary">
             Hablar con un asesor
           </a>
         </section>
