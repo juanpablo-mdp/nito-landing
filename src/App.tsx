@@ -1,4 +1,3 @@
-import Logotipo from '/logo.jpeg';
 import CookieBanner from './CookieBanner';
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
     <>
       <header>
         <div className="logo-container">
-          <img src={Logotipo} className="logo" alt="Nito Logo" />
+          <img src="/logo.jpg" className="logo" alt="Nito Logo" />
           <span>Nito</span>
         </div>
         <nav>
