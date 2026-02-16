@@ -1,4 +1,5 @@
 import Logotipo from '/logo.jpeg';
+import CookieBanner from './CookieBanner';
 
 function App() {
 
@@ -101,6 +102,7 @@ function App() {
           © {new Date().getFullYear()} Nito App. Todos los derechos reservados.
         </p>
       </footer>
+      <CookieBanner />
     </>
   )
 }
