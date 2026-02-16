@@ -1,7 +1,7 @@
 import Logotipo from '/logo.jpeg';
 
 function App() {
-  const appUrl = "https://presupuestos.nitoapp.online";
+
 
   return (
     <>
@@ -11,7 +11,8 @@ function App() {
           <span>Nito</span>
         </div>
         <nav>
-          <a href={appUrl} className="btn btn-secondary">Iniciar Sesión</a>
+          <a href="https://presupuestos.nitoapp.online" className="btn btn-secondary btn-sm">Nito Presupuestos</a>
+          <a href="https://socios.nitoapp.online" className="btn btn-secondary btn-sm">Nito Socios</a>
         </nav>
       </header>
 
