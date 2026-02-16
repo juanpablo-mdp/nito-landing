@@ -79,6 +79,24 @@ function App() {
       </main>
 
       <footer>
+        <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
+          <a
+            href="/legales/politica_privacidad.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none', fontSize: '0.9em' }}
+          >
+            Política de Privacidad
+          </a>
+          <a
+            href="/legales/terminos_condiciones.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none', fontSize: '0.9em' }}
+          >
+            Términos y Condiciones
+          </a>
+        </div>
         <p style={{ fontSize: '0.9em', color: 'rgba(255,255,255,0.4)' }}>
           © {new Date().getFullYear()} Nito App. Todos los derechos reservados.
         </p>
