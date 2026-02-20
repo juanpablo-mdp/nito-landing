@@ -18,9 +18,9 @@ function App() {
 
       <main>
         <section className="hero">
-          <h1>Tu socio tecnológico,<br />sin palabras raras.</h1>
+          <h1>Gestión de Alumnos y Presupuestos desde el Celular</h1>
           <p>
-            Herramientas simples para que negocios, clubes y profesionales recuperen su tiempo. Chau Excel y cuadernos desordenados; hola tranquilidad.
+            Herramientas simples para dejar el Excel y recuperar tu tiempo. El <strong>software gestión turnos y cobros</strong> ideal para organizarte, todo diseñado desde <strong>Mar del Plata</strong> con soporte directo.
           </p>
           <div style={{ marginTop: '2.5rem', display: 'flex', gap: '1rem', justifyContent: 'center' }}>
             <a href="#solutions" className="btn btn-primary">
@@ -32,15 +32,15 @@ function App() {
         <section id="solutions" className="solutions">
           <div className="solution-card presupuestos">
             <span className="tag">Para Profesionales Independientes</span>
-            <h3>Cotizaciones que cierran ventas.</h3>
-            <p>Creá, enviá y gestioná presupuestos impecables en minutos. Que tu imagen profesional hable por vos frente a tus clientes.</p>
+            <h2>App para hacer Presupuestos en PDF</h2>
+            <p>Potenciá tu imagen como profesional con nuestro <strong>generador de presupuestos PDF</strong>. La mejor <strong>app para gasistas / electricistas / técnicos</strong> que quieren crear y enviar cotizaciones impecables en minutos.</p>
             <a href="https://presupuestos.nitoapp.online" className="btn-card">Conocer más</a>
           </div>
 
           <div className="solution-card socios">
             <span className="tag">Para Gimnasios y Clubes</span>
-            <h3>Cobrar nunca fue tan fácil.</h3>
-            <p>Controlá quién está al día y mandá recordatorios de pago por WhatsApp con un solo clic. Dejá de perder plata por vergüenza a reclamar.</p>
+            <h2>Software para Gimnasios y Profes</h2>
+            <p>Si buscás un <strong>sistema para gimnasios gratis</strong> para probar, esta es tu solución. Llevá el <strong>control de asistencia alumnos</strong> y olvidate de los deudores ordenando todo desde un solo lugar.</p>
             <a href="https://socios.nitoapp.online" className="btn-card">Conocer más</a>
           </div>
 
@@ -53,19 +53,19 @@ function App() {
         </section>
 
         <section className="trust-section">
-          <h2>Por qué elegir Nito</h2>
+          <h2>Control de Cuotas y Vencimientos</h2>
           <div className="benefits-grid">
             <div className="benefit-item">
               <h3>✅ Hablamos tu idioma</h3>
-              <p>Nada de tecnicismos incomprensibles. Si sabés usar WhatsApp, sabés usar Nito.</p>
+              <p>Nada de tecnicismos incomprensibles. Si sabés usar WhatsApp, sabés usar Nito para gestionar todo.</p>
             </div>
             <div className="benefit-item">
               <h3>✅ A tu medida</h3>
-              <p>Herramientas que van directo al grano, sin funciones de sobra que te confundan.</p>
+              <p>Herramientas que van directo al grano. Nada de interfaces complicadas, solo lo que tu negocio necesita.</p>
             </div>
             <div className="benefit-item">
-              <h3>✅ Soporte real</h3>
-              <p>Hablás conmigo, no con un robot.</p>
+              <h3>✅ Soporte local</h3>
+              <p>Desarrollado en <strong>Mar del Plata</strong>. Hablás conmigo directamente para resolver tus dudas rápido.</p>
             </div>
           </div>
         </section>
