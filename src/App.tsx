@@ -11,8 +11,8 @@ function App() {
           <span>Nito</span>
         </div>
         <nav>
-          <a href="https://presupuestos.nitoapp.online" className="btn btn-secondary btn-sm">Nito Presupuestos</a>
-          <a href="https://socios.nitoapp.online" className="btn btn-secondary btn-sm">Nito Socios</a>
+          <a href="https://presupuestos.nitoapp.online" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm">Nito Presupuestos</a>
+          <a href="https://socios.nitoapp.online" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm">Nito Socios</a>
         </nav>
       </header>
 
@@ -34,21 +34,21 @@ function App() {
             <span className="tag">Para Profesionales Independientes</span>
             <h2>App para hacer Presupuestos en PDF</h2>
             <p>Potenciá tu imagen como profesional con nuestro <strong>generador de presupuestos PDF</strong>. La mejor <strong>app para gasistas / electricistas / técnicos</strong> que quieren crear y enviar cotizaciones impecables en minutos.</p>
-            <a href="https://presupuestos.nitoapp.online" className="btn-card">Conocer más</a>
+            <a href="https://presupuestos.nitoapp.online" target="_blank" rel="noopener noreferrer" className="btn-card">Conocer más</a>
           </div>
 
           <div className="solution-card socios">
             <span className="tag">Para Gimnasios y Clubes</span>
             <h2>Software para Gimnasios y Profes</h2>
             <p>Si buscás un <strong>sistema para gimnasios gratis</strong> para probar, esta es tu solución. Llevá el <strong>control de asistencia alumnos</strong> y olvidate de los deudores ordenando todo desde un solo lugar.</p>
-            <a href="https://socios.nitoapp.online" className="btn-card">Conocer más</a>
+            <a href="https://socios.nitoapp.online" target="_blank" rel="noopener noreferrer" className="btn-card">Conocer más</a>
           </div>
 
           <div className="solution-card next">
             <span className="tag">En Desarrollo</span>
             <h3>¿Qué problema te resolvemos hoy?</h3>
             <p>Seguimos creando herramientas simples para automatizar tu día a día. ¿Tenés alguna tarea administrativa que te vuelva loco?</p>
-            <a href="https://wa.me/5491155144268?text=Hola,%20tengo%20una%20idea%20para%20Nito" className="btn-card">Contame tu idea</a>
+            <a href="https://wa.me/5491155144268?text=Hola,%20tengo%20una%20idea%20para%20Nito" target="_blank" rel="noopener noreferrer" className="btn-card">Contame tu idea</a>
           </div>
         </section>
 
@@ -72,7 +72,7 @@ function App() {
 
         <section className="closing-section">
           <h2>Empezá a simplificar tu negocio hoy.</h2>
-          <a href="https://wa.me/5491155144268?text=Hola,%20vi%20la%20web%20de%20Nito%20y%20me%20gustar%C3%ADa%20saber%20c%C3%B3mo%20pueden%20ayudar%20a%20mi%20negocio" className="btn btn-primary">
+          <a href="https://wa.me/5491155144268?text=Hola,%20vi%20la%20web%20de%20Nito%20y%20me%20gustar%C3%ADa%20saber%20c%C3%B3mo%20pueden%20ayudar%20a%20mi%20negocio" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
             Hablar con un asesor
           </a>
         </section>
