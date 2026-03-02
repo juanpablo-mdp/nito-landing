@@ -18,14 +18,36 @@ function App() {
 
       <main>
         <section className="hero">
-          <h1>Gestión de Alumnos y Presupuestos desde el Celular</h1>
-          <p>
-            Herramientas simples para dejar el Excel y recuperar tu tiempo. El <strong>software gestión turnos y cobros</strong> ideal para organizarte, todo diseñado desde <strong>Mar del Plata</strong> con soporte directo.
-          </p>
-          <div style={{ marginTop: '2.5rem', display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-            <a href="#solutions" className="btn btn-primary">
-              Ver Soluciones
-            </a>
+          <h1>Potencia tu negocio independiente con herramientas simples</h1>
+
+          <div className="hero-split">
+            <div className="solution-card hero-card-blue">
+              <div style={{ marginBottom: '1.5rem', width: '48px', height: '48px', color: '#3b82f6' }}>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                </svg>
+              </div>
+              <span className="tag">Nito Presupuestos</span>
+              <h2>Para Oficios y Profesionales</h2>
+              <p>Crea presupuestos PDF profesionales en segundos y cierra más trabajos.</p>
+              <a href="https://presupuestos.nitoapp.online" target="_blank" rel="noopener noreferrer" className="btn-card">
+                Ir a Nito Presupuestos
+              </a>
+            </div>
+
+            <div className="solution-card hero-card-orange">
+              <div style={{ marginBottom: '1.5rem', width: '48px', height: '48px', color: '#f97316' }}>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+                </svg>
+              </div>
+              <span className="tag">Nito Socios</span>
+              <h2>Para Gimnasios y Profes</h2>
+              <p>Gestiona alumnos, cobros y asistencias sin usar Excel.</p>
+              <a href="https://socios.nitoapp.online" target="_blank" rel="noopener noreferrer" className="btn-card">
+                Ir a Nito Socios
+              </a>
+            </div>
           </div>
         </section>
 

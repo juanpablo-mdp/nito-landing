@@ -166,6 +166,74 @@ main {
   filter: blur(60px);
 }
 
+/* Hero Split (Bento Grid) */
+.hero-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 3rem auto 0;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .hero-split {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+.hero-card-blue {
+  border-top: 4px solid #3b82f6;
+}
+
+.hero-card-blue:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 20px 40px -10px rgba(59, 130, 246, 0.2);
+}
+
+.hero-card-blue .tag {
+  background: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+}
+
+.hero-card-blue .btn-card {
+  background: #3b82f6;
+  color: white;
+  border: 1px solid #3b82f6;
+}
+
+.hero-card-blue .btn-card:hover {
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+.hero-card-orange {
+  border-top: 4px solid #f97316;
+}
+
+.hero-card-orange:hover {
+  border-color: #f97316;
+  box-shadow: 0 20px 40px -10px rgba(249, 115, 22, 0.2);
+}
+
+.hero-card-orange .tag {
+  background: rgba(249, 115, 22, 0.2);
+  color: #fdba74;
+}
+
+.hero-card-orange .btn-card {
+  background: #f97316;
+  color: white;
+  border: 1px solid #f97316;
+}
+
+.hero-card-orange .btn-card:hover {
+  background: #ea580c;
+  border-color: #ea580c;
+}
+
 /* Solutions Grid */
 .solutions {
   display: grid;
