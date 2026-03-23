@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { NitoLanding } from './NitoLanding';
 import { PresupuestosLanding } from './PresupuestosLanding';
 import { SociosLanding } from './SociosLanding';
 
@@ -9,13 +10,16 @@ function App() {
     setHostname(window.location.hostname);
   }, []);
 
-  const isSocios = hostname.startsWith('socios.');
-
-  if (isSocios) {
+  if (hostname.startsWith('socios.')) {
     return <SociosLanding />;
   }
 
-  return <PresupuestosLanding />;
+  if (hostname.startsWith('presupuestos.')) {
+    return <PresupuestosLanding />;
+  }
+
+  // Fallback to Nito general landing page
+  return <NitoLanding />;
 }
 
 export default App;
