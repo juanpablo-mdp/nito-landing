@@ -25,7 +25,7 @@ export function PresupuestosLanding() {
                             <p style={{ marginBottom: '2.5rem' }}>
                                 Dejá de perder tiempo con el papel y la calculadora. Cotizá desde tu celular, enviá PDFs impecables con tu logo y cerrá más trabajos desde hoy.
                             </p>
-                            <a href="https://presupuestos.nitoapp.online" className="btn btn-primary">
+                            <a href="https://presupuestos.nitoapp.online" className="btn btn-primary" onClick={() => { (window as any).fbq && (window as any).fbq('track', 'Lead'); }}>
                                 Comenzar Gratis Ahora
                             </a>
                             <p style={{ fontSize: '0.95rem', color: '#64748b', marginTop: '1.5rem', fontWeight: '500' }}>
@@ -105,7 +105,7 @@ export function PresupuestosLanding() {
                     <p style={{ marginBottom: '3rem', fontSize: '1.25rem' }}>Mejorá tu imagen y cerrá más trabajos desde hoy mismo.</p>
 
                     <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-                        <a href="https://presupuestos.nitoapp.online" className="btn btn-primary" style={{ padding: '1rem 2.5rem' }}>
+                        <a href="https://presupuestos.nitoapp.online" className="btn btn-primary" style={{ padding: '1rem 2.5rem' }} onClick={() => { (window as any).fbq && (window as any).fbq('track', 'CompleteRegistration'); }}>
                             Crear Mi Cuenta Gratis
                         </a>
                         <a href="https://wa.me/5491155144268?text=Hola,%20tengo%20dudas%20sobre%20Nito%20Presupuestos" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ padding: '1rem 2.5rem' }}>

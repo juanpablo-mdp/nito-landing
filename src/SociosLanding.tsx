@@ -22,7 +22,7 @@ export function SociosLanding() {
                             <p style={{ fontSize: '1.2rem', color: '#cbd5e1', marginBottom: '2rem' }}>
                                 Olvidate del Excel y los mensajes manuales. Gestioná alumnos, cobros y asistencias directamente desde donde estés. Diseñado para gimnasios y profes organizados.
                             </p>
-                            <a href="https://socios.nitoapp.online/app" className="btn btn-primary" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }}>
+                            <a href="https://socios.nitoapp.online/app" className="btn btn-primary" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }} onClick={() => { (window as any).fbq && (window as any).fbq('track', 'Lead'); }}>
                                 Hacer una prueba gratis
                             </a>
                         </div>

@@ -14,7 +14,7 @@ export function NitoLanding() {
         </nav>
         <div className="nav-actions">
            <a href="https://presupuestos.nitoapp.online" className="btn btn-secondary-glass btn-sm">Ingresar</a>
-           <a href="https://presupuestos.nitoapp.online" className="btn btn-primary-capsule btn-sm">Comenzar Gratis</a>
+           <a href="https://presupuestos.nitoapp.online" className="btn btn-primary-capsule btn-sm" onClick={() => { (window as any).fbq && (window as any).fbq('track', 'Lead'); }}>Comenzar Gratis</a>
         </div>
       </header>
       
@@ -24,7 +24,7 @@ export function NitoLanding() {
           <div className="saas-badge bounce-badge">✨ Nuevo: Empezá a usar Nito gratis hoy. Sin tarjeta.</div>
           <h1 className="hero-h1-astral">Tu trabajo independiente, por fin organizado en un solo lugar.</h1>
           <p className="hero-subtitle">Dejá de perder tiempo con el papel y la calculadora. Cotizá en minutos y gestioná tus cobros sin planillas.</p>
-          <a href="https://presupuestos.nitoapp.online" className="btn btn-primary-capsule btn-lg mt-8 glow-primary">Comenzar Gratis Ahora</a>
+          <a href="https://presupuestos.nitoapp.online" className="btn btn-primary-capsule btn-lg mt-8 glow-primary" onClick={() => { (window as any).fbq && (window as any).fbq('track', 'Lead'); }}>Comenzar Gratis Ahora</a>
           <p style={{ fontSize: '0.875rem', color: '#64748b', marginTop: '0.75rem' }}>✓ No requiere tarjeta • ✓ Configuración en 1 minuto</p>
           <p className="social-proof">⭐ +500 profesionales ya confían en Nito.</p>
           
@@ -132,7 +132,7 @@ export function NitoLanding() {
            <h2>Dejá el papel y unite a +500 profesionales.</h2>
            <p className="subtitle-large">Mejorá tu imagen y cerrá más trabajos desde hoy mismo.</p>
            <div className="button-group justify-center">
-              <a href="https://presupuestos.nitoapp.online" className="btn btn-primary-capsule btn-lg glow-primary">Crear Mi Cuenta Gratis</a>
+              <a href="https://presupuestos.nitoapp.online" className="btn btn-primary-capsule btn-lg glow-primary" onClick={() => { (window as any).fbq && (window as any).fbq('track', 'CompleteRegistration'); }}>Crear Mi Cuenta Gratis</a>
               <a href="https://wa.me/5491155144268?text=Hola,%20tengo%20dudas%20sobre%20Nito" target="_blank" rel="noopener noreferrer" className="btn btn-secondary-glass btn-lg">Hablar con un asesor</a>
            </div>
         </section>
