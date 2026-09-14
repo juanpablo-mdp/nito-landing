@@ -31,7 +31,7 @@ export default function CookieBanner() {
                         ¡Entendido!
                     </button>
                     <a
-                        href="/legales/politica_privacidad.pdf"
+                        href="https://socios.nitoapp.online/legal/politica-privacidad.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn-link"

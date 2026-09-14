@@ -1,133 +1,17 @@
 import CookieBanner from './CookieBanner';
 
 export function NitoLanding() {
-  return (
-    <div className="nito-astral-theme">
-      {/* HEADER */}
-      <header className="navbar-astral">
-        <div className="logo-container">
-          <img src="/logo.jpg" className="logo" alt="Nito Logo" />
-          <span>Nito</span>
-        </div>
-        <div className="nav-actions">
-           <a href="https://presupuestos.nitoapp.online" className="btn btn-secondary-glass btn-sm">Ingresar</a>
-           <a href="#productos" className="btn btn-primary-capsule btn-sm">Empezar</a>
-        </div>
-      </header>
-      
-      <main>
-        {/* HERO SECTION */}
-        <section className="hero-astral text-center">
-          <div className="saas-badge bounce-badge">✨ +500 profesionales automatizaron su negocio</div>
-          <h1 className="hero-h1-astral">Tu negocio, por fin organizado.<br />Sin Excel ni dolores de cabeza.</h1>
-          <p className="hero-subtitle">Herramientas simples y efectivas para profesionales y clubes. Cotizá en segundos, controlá tus cobros y recuperá tu tiempo.</p>
-          <div className="button-group justify-center" style={{ marginTop: '2.5rem' }}>
-             <a href="#productos" className="btn btn-primary-capsule btn-lg glow-primary">Conocé nuestras soluciones</a>
-          </div>
-        </section>
+ return <>
 
-        {/* EL PROBLEMA */}
-        <section className="problem-section" style={{ maxWidth: '800px', margin: '6rem auto', textAlign: 'center', padding: '0 1.5rem' }}>
-           <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>¿El papel y las planillas te están frenando?</h2>
-           <p style={{ fontSize: '1.2rem', color: '#94a3b8' }}>
-              ¿Cansado de perder ventas por demorar en pasar un presupuesto? ¿Agotado de reclamar cuotas atrasadas por WhatsApp uno por uno? Nito es la tecnología simple que te resuelve el día a día.
-           </p>
-        </section>
-
-        {/* LOS CAMINOS (PRODUCTOS CORE) */}
-        <section id="productos" className="segmentation-section" style={{ marginTop: '4rem' }}>
-           <div className="segmentation-grid" style={{ maxWidth: '1000px', margin: '0 auto', padding: '0 1.5rem' }}>
-              
-              {/* Presupuestos Card */}
-              <div className="glass-card-deep" style={{ position: 'relative', overflow: 'hidden' }}>
-                 <div className="blue-ambient-glow" style={{ top: '-10%', left: '-10%', width: '150px', height: '150px' }}></div>
-                 <div className="icon-glow">📄</div>
-                 <div className="saas-badge" style={{ marginBottom: '1rem', background: 'rgba(59, 130, 246, 0.15)' }}>Para Profesionales y Oficios</div>
-                 <h3 style={{ fontSize: '1.8rem' }}>Nito Presupuestos</h3>
-                 <p style={{ color: '#cbd5e1', fontWeight: 500, fontSize: '1.1rem', marginBottom: '1.5rem' }}>"Cotizaciones que cierran ventas."</p>
-                 <ul className="benefit-list" style={{ marginTop: 0, marginBottom: '2rem', flexGrow: 1 }}>
-                    <li><span className="list-icon">✅</span> <span><strong>Catálogo inteligente:</strong> Guardá tus ítems precargados.</span></li>
-                    <li><span className="list-icon">✅</span> <span><strong>PDF Inmediato:</strong> Generá presupuestos con tu logo.</span></li>
-                    <li><span className="list-icon">✅</span> <span><strong>WhatsApp:</strong> Enviá con 1 clic al instante.</span></li>
-                 </ul>
-                 <a href="https://presupuestos.nitoapp.online" className="btn btn-primary-capsule" style={{ width: '100%', display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
-                    Probar Nito Presupuestos
-                 </a>
-              </div>
-
-              {/* Socios Card */}
-              <div className="glass-card-deep" style={{ position: 'relative', overflow: 'hidden' }}>
-                 <div className="blue-ambient-glow" style={{ top: '-10%', right: '-10%', left: 'auto', width: '150px', height: '150px', background: '#f97316' }}></div>
-                 <div className="icon-glow" style={{ color: '#f97316', borderColor: 'rgba(249, 115, 22, 0.2)', background: 'rgba(249, 115, 22, 0.1)', boxShadow: '0 0 20px rgba(249, 115, 22, 0.2)' }}>🗓️</div>
-                 <div className="saas-badge" style={{ marginBottom: '1rem', color: '#f97316', borderColor: 'rgba(249, 115, 22, 0.2)', background: 'rgba(249, 115, 22, 0.1)' }}>Para Clubes y Gimnasios</div>
-                 <h3 style={{ fontSize: '1.8rem' }}>Nito Socios</h3>
-                 <p style={{ color: '#fed7aa', fontWeight: 500, fontSize: '1.1rem', marginBottom: '1.5rem' }}>"Cobrar nunca fue tan fácil."</p>
-                 <ul className="benefit-list" style={{ marginTop: 0, marginBottom: '2rem', flexGrow: 1 }}>
-                    <li><span className="list-icon">✅</span> <span><strong>Gestión simple:</strong> Carga de alumnos y clientes.</span></li>
-                    <li><span className="list-icon">✅</span> <span><strong>Alertas:</strong> Notificaciones de vencimiento.</span></li>
-                    <li><span className="list-icon">✅</span> <span><strong>Control total:</strong> Estado de cuenta unificado.</span></li>
-                 </ul>
-                 <a href="https://socios.nitoapp.online" className="btn btn-secondary-glass" style={{ width: '100%', display: 'flex', justifyContent: 'center', textAlign: 'center', borderColor: 'rgba(249, 115, 22, 0.3)', background: 'rgba(249, 115, 22, 0.1)' }}>
-                    Probar Nito Socios
-                 </a>
-              </div>
-
-           </div>
-        </section>
-
-        {/* POR QUE NITO */}
-        <section className="features-section" style={{ marginTop: '8rem', padding: '0 1.5rem' }}>
-           <h2 className="text-center mb-12">Por qué elegir Nito</h2>
-           <div className="benefits-grid" style={{ maxWidth: '1000px', margin: '0 auto' }}>
-              <div className="glass-card-deep" style={{ padding: '2rem' }}>
-                 <div className="icon-glow-small">🎯</div>
-                 <h3 className="mt-4">A tu medida</h3>
-                 <p>Herramientas que van directo al grano, sin funciones de sobra que te confundan o no uses.</p>
-              </div>
-              <div className="glass-card-deep" style={{ padding: '2rem' }}>
-                 <div className="icon-glow-small">🗣️</div>
-                 <h3 className="mt-4">Hablamos tu idioma</h3>
-                 <p>Nada de tecnicismos incomprensibles. Si sabés usar WhatsApp, sabés usar Nito perfectamente.</p>
-              </div>
-              <div className="glass-card-deep" style={{ padding: '2rem' }}>
-                 <div className="icon-glow-small">🤝</div>
-                 <h3 className="mt-4">Soporte real</h3>
-                 <p>Atrás de Nito hay personas de verdad. Hablás con nosotros, no con un robot de atención.</p>
-               </div>
-            </div>
-         </section>
-
-         {/* NOTA DEL FUNDADOR */}
-        <section className="founder-section" style={{ padding: '0 1.5rem' }}>
-           <div className="founder-card glass-card-deep flex-row" style={{ maxWidth: '900px', padding: '3rem' }}>
-              <div className="founder-avatar">JP</div>
-              <div className="founder-text">
-                 <blockquote>"Creamos Nito porque vimos a demasiados profesionales excelentes perder trabajos por pasar un presupuesto en papel desprolijo, o clubes perder ingresos por no llevar un control claro. Queremos que te enfoques en tu pasión, la administración dejala en nuestras manos."</blockquote>
-                 <cite>— Juan Pablo, Creador de Nito App</cite>
-              </div>
-           </div>
-        </section>
-
-        {/* FINAL CTA */}
-        <section className="final-cta text-center" style={{ maxWidth: '900px', margin: '8rem auto 6rem', padding: '4rem 1.5rem' }}>
-           <h2>Dejá el papel y unite a +500 usuarios hoy.</h2>
-           <p className="subtitle-large" style={{ maxWidth: '600px', margin: '0 auto 3rem' }}>Simplificá tu negocio, mejorá tu imagen profesional y recuperá tu tiempo libre.</p>
-           <div className="button-group justify-center">
-              <a href="#productos" className="btn btn-primary-capsule btn-lg glow-primary">Crear Cuenta Gratis</a>
-              <a href="https://wa.me/5491155144268?text=Hola,%20tengo%20dudas%20sobre%20Nito" target="_blank" rel="noopener noreferrer" className="btn btn-secondary-glass btn-lg">Hablar con un asesor</a>
-           </div>
-        </section>
-      </main>
-
-      {/* FOOTER */}
-      <footer>
-         <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', marginBottom: '1.5rem', flexWrap: 'wrap', padding: '0 1.5rem' }}>
-             <a href="/legales/politica_privacidad.pdf" target="_blank" rel="noopener noreferrer">Política de Privacidad</a>
-             <a href="/legales/terminos_condiciones.pdf" target="_blank" rel="noopener noreferrer">Términos y Condiciones</a>
-         </div>
-         <p>© {new Date().getFullYear()} Nito App. Todos los derechos reservados.</p>
-      </footer>
-      <CookieBanner />
-    </div>
-  );
+<header className="header"><nav className="wrap nav" aria-label="Navegación principal"><a className="brand" href="/" aria-label="Nito, inicio"><img src="/landing-assets/logo.jpeg" width="49" height="49" alt="Nito" />nito<span>Socios</span></a><div className="navlinks"><a href="#funciona">Cómo funciona</a><a href="#planes">Planes</a><a href="#preguntas">Preguntas</a></div><div className="actions"><a href="https://socios.nitoapp.online/login">Ingresar</a><a className="button dark" href="https://socios.nitoapp.online/login">Probar gratis <span aria-hidden="true">↗</span></a></div></nav></header>
+<main><section className="hero"><div className="wrap hero-grid"><div><span className="eyebrow">Para quienes hacen crecer el deporte</span><h1>Tu gente, en marcha.<br /><em>Tus cuotas,<br />bajo control.</em></h1><p>Sabé quién pagó, qué cuotas están pendientes y a quién avisar. Organizá la administración de tu club, gimnasio o academia en un solo lugar.</p><div className="actions"><a className="button" href="https://socios.nitoapp.online/login">Probar Nito Socios <span aria-hidden="true">↗</span></a><a className="button outline" href="#funciona">Conocer cómo funciona</a></div><div className="trust"><span>30 días gratis</span><span>Sin tarjeta de crédito</span></div></div><div className="photo"><img src="/landing-assets/club.png" alt="Una jornada deportiva con familias y chicos en un club" width="640" height="640" fetchPriority="high" /><span className="photo-caption">Más tiempo para tu comunidad.</span><div className="photo-card"><strong>El club sigue. La administración también.</strong><p>Socios, pagos y pendientes ordenados, para que cada consulta tenga una respuesta.</p></div></div></div></section>
+<div className="wrap audiences"><span>Un lugar para cada equipo.</span><span>Clubes deportivos</span><span>Gimnasios</span><span>Academias</span><span>Personal trainers</span></div>
+<section className="section"><div className="wrap"><div className="section-heading"><div><span className="eyebrow">Menos vueltas. Más claridad.</span><h2>Que cobrar la cuota<br />no te ocupe todo el día.</h2></div><p>La información que necesitás para administrar, sin buscar entre planillas y conversaciones.</p></div><div className="cards"><article className="card"><span className="number">01 / SOCIOS</span><h3>Cada socio, con su información.</h3><p>Consultá los datos y el estado de cada miembro desde un mismo lugar. Mantené tu padrón organizado.</p></article><article className="card"><span className="number">02 / PAGOS</span><h3>Lo cobrado y lo pendiente, a la vista.</h3><p>Registrá pagos y revisá las cuotas pendientes para saber dónde concentrar el seguimiento.</p></article><article className="card"><span className="number">03 / SEGUIMIENTO</span><h3>El recordatorio, listo para enviar.</h3><p>Abrí WhatsApp con el mensaje preparado. Revisalo y envialo vos, con el trato de siempre.</p></article></div></div></section>
+<section className="section white" id="funciona"><div className="wrap flow"><div><span className="eyebrow">Así entra Nito en tu día</span><h2>De “¿ya pagó?”<br />a tenerlo claro.</h2><p>Un recorrido simple para empezar a ordenar tus cobros.</p><div className="flow-list"><div className="flow-item"><b>1</b><div><strong>Creá tu cuenta y cargá tus socios.</strong><p>Empezá con la información de tu club o actividad.</p></div></div><div className="flow-item"><b>2</b><div><strong>Registrá los pagos.</strong><p>Consultá el estado de cuenta de cada socio.</p></div></div><div className="flow-item"><b>3</b><div><strong>Seguí los pendientes.</strong><p>Prepará los avisos y envialos por WhatsApp.</p></div></div></div></div><div className="example" aria-label="Ejemplo ilustrativo de organización de cuotas"><div className="example-head"><strong>Cuotas de septiembre</strong><span>Ejemplo ilustrativo</span></div><div className="balances"><div className="balance"><small>Cuotas pagadas</small><strong>42</strong></div><div className="balance pending"><small>Por cobrar</small><strong>8</strong></div></div><div className="member"><span className="avatar">LM</span><span>Lucía Martínez</span><span className="status">Al día</span></div><div className="member"><span className="avatar">TG</span><span>Tomás García</span><span className="status due">Pendiente</span></div><div className="member"><span className="avatar">SP</span><span>Sofía Pérez</span><span className="status">Al día</span></div><p className="sample-note">Datos ficticios para mostrar el uso. No es una captura de la aplicación.</p></div></div></section>
+<section className="section" id="planes"><div className="wrap"><div className="section-heading"><div><span className="eyebrow">Elegí según tu actividad</span><h2>Empezá por probarlo.<br />Después elegí tu plan.</h2></div><p>30 días de prueba sin tarjeta. Conocé la herramienta antes de decidir.</p></div><div className="cards"><article className="card price"><h3>Trainer</h3><p>Para tu grupo de alumnos.</p><div className="amount">$12.000</div><span className="period">ARS por mes</span><ul><li>Hasta 20 alumnos o socios</li><li>Gestión de cobros</li><li>Integración con Mercado Pago</li><li>No incluye reservas</li></ul><a className="button dark" href="https://socios.nitoapp.online/login">Probar gratis</a></article><article className="card price highlight"><span className="tag">Para academias</span><h3>Estudio</h3><p>Para organizar una actividad que crece.</p><div className="amount">$24.000</div><span className="period">ARS por mes</span><ul><li>Hasta 200 alumnos o socios</li><li>Personalización con tu logo</li><li>Sistema de reservas</li><li>Reportes avanzados</li><li>Soporte prioritario</li></ul><a className="button" href="https://socios.nitoapp.online/login">Probar gratis</a></article><article className="card price"><h3>Club</h3><p>Para la gestión de tu institución.</p><div className="amount">$45.000</div><span className="period">ARS por mes</span><ul><li>Alumnos o socios ilimitados</li><li>Todo lo incluido en Estudio</li><li>Recepción y torneos</li><li>Soporte VIP</li></ul><a className="button dark" href="https://socios.nitoapp.online/login">Probar gratis</a></article></div><p className="pricing-note">¿Querés consultar qué plan se adapta a tu club? <a className="text-link" href="https://wa.me/5491155144268?text=Hola%2C%20quiero%20conocer%20Nito%20Socios%20y%20consultar%20qu%C3%A9%20plan%20me%20conviene.">Hablá con nosotros</a></p></div></section>
+<section className="section white" id="preguntas"><div className="wrap faq"><div><span className="eyebrow">Antes de empezar</span><h2>Las dudas<br />más comunes.</h2><p>Y si te queda alguna, estamos del otro lado.</p></div><div><details><summary>¿Cómo empiezo la prueba?</summary><p>Entrá desde “Probar gratis” y elegí “Regístrate” en la pantalla de acceso. Completá tus datos y creá tu cuenta. La prueba publicada es de 30 días y no requiere tarjeta.</p></details><details><summary>¿Sirve si tengo pocos alumnos?</summary><p>Sí. El plan Trainer contempla hasta 20 alumnos o socios. Para grupos más grandes, podés consultar Estudio y Club.</p></details><details><summary>¿Los WhatsApp se envían solos?</summary><p>No. Nito abre WhatsApp con el texto preparado. Vos revisás el mensaje y decidís enviarlo.</p></details><details><summary>¿Puedo usar reservas?</summary><p>El sistema de reservas está incluido desde el plan Estudio. El plan Trainer se concentra en alumnos y cobros.</p></details><details><summary>¿Ya tengo cuenta?</summary><p><a className="text-link" href="https://socios.nitoapp.online/login">Ingresá a tu panel</a> con tus credenciales habituales.</p></details></div></div></section>
+<section className="section"><div className="wrap closing"><div><span className="eyebrow">Tu próximo paso</span><h2>Probalo con tu actividad.<br />Decidí con experiencia.</h2><p>Creá tu cuenta desde “Regístrate” en la pantalla de acceso.</p></div><a className="button" href="https://socios.nitoapp.online/login">Empezar mi prueba gratis <span aria-hidden="true">↗</span></a></div></section></main>
+<footer className="footer"><div className="wrap footer-row"><a className="brand" href="/">nito<span>Socios</span></a><div className="footer-links"><a href="/">Inicio</a><a href="https://socios.nitoapp.online/legal/terminos-condiciones.pdf">Términos</a><a href="https://socios.nitoapp.online/legal/politica-privacidad.pdf">Privacidad</a></div><small>© 2026 Nito Socios</small></div></footer>
+<CookieBanner />
+</>;
 }
