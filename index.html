@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html class="scroll-smooth" lang="es">
 
 <head>
   <!-- Google tag (gtag.js) -->
@@ -14,16 +14,142 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/png" href="/favicon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nito Socios — Tus socios y cuotas, bajo control</title>
+  <title>Nito Socios | Software de Gestión y Cobranzas para Clubes y Gimnasios</title>
   <meta name="description"
-    content="Organizá socios, registrá pagos y seguí cuotas pendientes. Nito Socios para clubes, academias y centros de entrenamiento." />
-  <meta property="og:title" content="Nito Socios — Tus socios y cuotas, bajo control" />
-  <meta property="og:description" content="Socios, pagos y cuotas pendientes en un solo lugar. Probá Nito Socios durante 30 días sin tarjeta." />
+    content="Sabé exactamente quién pagó, qué cuotas están vencidas y enviá avisos por WhatsApp con un solo clic. Software para clubes, gimnasios y profesores." />
+  <meta property="og:title" content="Nito Socios — Software de Gestión y Cobranzas para Clubes y Gimnasios" />
+  <meta property="og:description"
+    content="Tu gente, en marcha. Tus cuotas, bajo control. Probá Nito Socios durante 30 días sin tarjeta." />
   <meta property="og:image" content="https://nitoapp.online/hero-mockup.png" />
   <link rel="canonical" href="https://nitoapp.online/" />
   <meta property="og:url" content="https://nitoapp.online" />
   <meta property="og:type" content="website" />
   <meta name="google-site-verification" content="z5F0hcjxLKG2mK35R5qO2ULtbgigh2HnyGJPryhbn-Q" />
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN + Stitch Project Config -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "trust-blue": "#1d4ed8",
+            "surface-card": "#ffffff",
+            "surface-container-high": "#e6e8ea",
+            "primary-fixed": "#dbe1ff",
+            "on-tertiary-container": "#ffece5",
+            "secondary-fixed": "#dae2fd",
+            "surface-dim": "#d8dadc",
+            "on-surface-variant": "#434655",
+            "error-container": "#ffdad6",
+            "on-background": "#191c1e",
+            "on-primary-container": "#eeefff",
+            "error-red-soft": "#fef2f2",
+            "inverse-on-surface": "#eff1f3",
+            "primary": "#004ac6",
+            "background": "#f7f9fb",
+            "tertiary": "#8e3c00",
+            "tertiary-fixed-dim": "#ffb690",
+            "outline-variant": "#c3c6d7",
+            "tertiary-container": "#b54e00",
+            "tertiary-fixed": "#ffdbca",
+            "surface": "#f7f9fb",
+            "on-tertiary-fixed-variant": "#783200",
+            "text-muted": "#64748b",
+            "on-tertiary": "#ffffff",
+            "surface-container-low": "#f2f4f6",
+            "surface-variant": "#e0e3e5",
+            "secondary-fixed-dim": "#bec6e0",
+            "on-secondary-fixed": "#131b2e",
+            "inverse-surface": "#2d3133",
+            "on-secondary-fixed-variant": "#3f465c",
+            "secondary-container": "#dae2fd",
+            "success-green": "#22c55e",
+            "surface-bright": "#f7f9fb",
+            "on-error-container": "#93000a",
+            "on-primary-fixed": "#00174b",
+            "surface-tint": "#0053db",
+            "on-primary-fixed-variant": "#003ea8",
+            "on-primary": "#ffffff",
+            "success-green-soft": "#ecfdf5",
+            "primary-container": "#2563eb",
+            "inverse-primary": "#b4c5ff",
+            "error-red": "#ef4444",
+            "secondary": "#565e74",
+            "on-secondary-container": "#5c647a",
+            "error": "#ba1a1a",
+            "warning-amber": "#f59e0b",
+            "outline": "#737686",
+            "border-subtle": "#e2e8f0",
+            "primary-fixed-dim": "#b4c5ff",
+            "surface-container-highest": "#e0e3e5",
+            "on-error": "#ffffff",
+            "on-tertiary-fixed": "#341100",
+            "on-secondary": "#ffffff",
+            "on-surface": "#191c1e",
+            "surface-container": "#eceef0",
+            "surface-container-lowest": "#ffffff"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "gutter-mobile": "1rem",
+            "margin": "2rem",
+            "space-sm": "0.5rem",
+            "gutter": "1.5rem",
+            "space-md": "1rem",
+            "space-xs": "0.25rem",
+            "margin-mobile": "1.25rem",
+            "space-lg": "1.5rem",
+            "space-xl": "2.5rem"
+          },
+          "fontFamily": {
+            "sans": ["Inter", "sans-serif"],
+            "headline-lg-mobile": ["Inter", "sans-serif"],
+            "headline-hero-mobile": ["Inter", "sans-serif"],
+            "label-badge": ["Inter", "sans-serif"],
+            "headline-hero": ["Inter", "sans-serif"],
+            "headline-sm": ["Inter", "sans-serif"],
+            "data-metric": ["Inter", "sans-serif"],
+            "body-sm": ["Inter", "sans-serif"],
+            "body-md": ["Inter", "sans-serif"],
+            "body-xl": ["Inter", "sans-serif"],
+            "label-md": ["Inter", "sans-serif"],
+            "headline-lg": ["Inter", "sans-serif"],
+            "headline-md": ["Inter", "sans-serif"],
+            "label-lg": ["Inter", "sans-serif"]
+          },
+          "fontSize": {
+            "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "headline-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "800" }],
+            "label-badge": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }],
+            "headline-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "data-metric": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0.005em", "fontWeight": "400" }],
+            "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "body-xl": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "400" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+            "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "headline-md": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }]
+          }
+        }
+      }
+    }
+  </script>
+
   <!-- Microsoft Clarity -->
   <script type="text/javascript">
     (function (c, l, a, r, i, t, y) {
@@ -48,8 +174,6 @@
     fbq('init', '3041117519612197');
     fbq('track', 'PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=3041117519612197&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
@@ -63,7 +187,10 @@
   <!-- End Google Tag Manager -->
 </head>
 
-<body>
+<body class="bg-background text-on-surface antialiased selection:bg-primary-fixed selection:text-primary">
+  <!-- Meta Pixel (noscript) -->
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=3041117519612197&ev=PageView&noscript=1" /></noscript>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JHMZKZ9" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
