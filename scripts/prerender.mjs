@@ -21,12 +21,11 @@ for (const [route, title] of [
     .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, '')
     .replace(/<meta name="description"[\s\S]*?\/>/, `<meta name="description" content="${title} de Nito Socios. Titular, suscripciones, datos personales y contacto." />`)
     .replace(/<meta (?:property="og:(?:title|description|url)"|name="twitter:(?:title|description)")[\s\S]*?\/>/g, '')
-    .replace(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="https://nitoapp.online${pathname}" />`)
-    .replace('</head>', '<meta name="robots" content="noindex, follow" /></head>');
+    .replace(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="https://nitoapp.online${pathname}" />`);
   const document = render(pathname);
   if ((document.match(/<h1>/g) ?? []).length !== 1 || !document.includes('Juan Pablo González') || document.includes('Nito Presupuestos')) throw new Error(`Invalid legal document: ${route}`);
   const directory = new URL(`../dist${pathname}`, import.meta.url);
   await mkdir(directory, { recursive: true });
   await writeFile(new URL('index.html', directory), legalTemplate.replace(placeholder, `<div id="root">${document}</div>`));
 }
-console.log('Legal pages prerendered (drafts excluded from search indexing).');
+console.log('Legal pages prerendered.');
