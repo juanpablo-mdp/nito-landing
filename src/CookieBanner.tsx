@@ -31,7 +31,7 @@ export default function CookieBanner() {
                         ¡Entendido!
                     </button>
                     <a
-                        href="/legales/politica_privacidad.pdf"
+                        href="/legales/politica-de-privacidad/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn-link"

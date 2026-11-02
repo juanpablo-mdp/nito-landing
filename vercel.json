@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/legales/terminos_condiciones.pdf",
+      "destination": "/legales/terminos-y-condiciones/",
+      "permanent": true
+    },
+    {
+      "source": "/legales/politica_privacidad.pdf",
+      "destination": "/legales/politica-de-privacidad/",
+      "permanent": true
+    }
+  ]
+}

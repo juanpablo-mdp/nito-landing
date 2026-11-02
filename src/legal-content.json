@@ -1,0 +1,143 @@
+{
+  "terms": [
+    {
+      "title": "1. Alcance e identificación",
+      "paragraphs": [
+        "Estos Términos y Condiciones regulan el acceso y uso de Nito Socios, disponible en nitoapp.online (la Plataforma o el Servicio). Nito Socios es una herramienta para la gestión de socios o clientes, cuotas y cobros y el envío de notificaciones, según las funciones disponibles en cada plan. La contratación de un plan no incluye funciones que se anuncien como próximas o en desarrollo.",
+        "Titular del Servicio: Juan Pablo González (persona humana). Domicilio: Arana y Goiri 4798. Correo de contacto y soporte: info@nitoapp.online. En este documento se lo denomina el Titular. La aceptación de estos términos debe realizarse antes de contratar o utilizar el Servicio."
+      ]
+    },
+    {
+      "title": "2. Cuentas y uso autorizado",
+      "paragraphs": [
+        "Para utilizar el Servicio debés proporcionar información veraz y actualizada y contar con facultades para actuar en nombre de la institución o negocio que representás. Debés proteger tus credenciales, administrar los accesos autorizados y comunicar al Titular cualquier uso no autorizado del que tomes conocimiento. Estas obligaciones no excluyen las responsabilidades propias del Titular en materia de seguridad."
+      ]
+    },
+    {
+      "title": "3. Planes, pagos y suscripciones",
+      "paragraphs": [
+        "Las suscripciones se procesan mediante Mercado Pago, en pesos argentinos (ARS), con renovación automática mensual o anual según la opción elegida y autorizada al contratar. La modalidad anual se cobra en un pago por cada período de doce meses. El importe depende del plan, el ciclo de facturación, los operadores adicionales y los descuentos o bonificaciones aplicables, y debe mostrarse antes de la autorización.",
+        "Mercado Pago recibe el correo del pagador, el importe, la descripción de la suscripción y una referencia de la cuenta para gestionar los cobros. Nito conserva el identificador de la suscripción y los estados de pago necesarios para administrar el acceso. Los cambios de precio o condiciones se informarán antes del período al que resulten aplicables, permitiendo cancelar la renovación antes del nuevo cobro. Cualquier actualización del débito deberá cumplir la autorización y las reglas aplicables.",
+        "La suscripción a Nito es distinta de los pagos de socios o clientes a una institución. Registrar una cuota como pagada no implica por sí mismo acreditación bancaria. Las funciones de cobro integrado, cuando estén habilitadas para una institución, tienen sus propias condiciones y dependen de la conexión con su cuenta de Mercado Pago."
+      ]
+    },
+    {
+      "title": "4. Solicitud de baja, débito y suspensión",
+      "paragraphs": [
+        "La Plataforma ofrece un formulario de solicitud de baja en su pie legal, accesible desde Configuración. Solicita los datos de contacto y genera un código de trámite para su gestión. El motivo de la solicitud es opcional. También podés comunicarte por el correo de contacto del Titular. La solicitud será atendida para hacer efectiva la baja y evitar renovaciones posteriores conforme a la normativa aplicable.",
+        "En la implementación revisada, el envío del formulario inicia una gestión manual: no ejecuta por sí mismo la cancelación de la suscripción en Mercado Pago. El Titular deberá confirmar la baja efectiva del débito y la fecha de cese del Servicio. Para detener la renovación también puede gestionarse la suscripción desde la cuenta de Mercado Pago con la que se autorizó el cobro. Esta alternativa no releva al Titular de atender la solicitud presentada en Nito.",
+        "[PENDIENTE ANTES DE PUBLICAR: verificar que la solicitud se guarde correctamente y sea atendida, implementar o validar la cancelación efectiva del débito y definir el acceso durante el período ya abonado y el procedimiento de reintegros. No se ha comprobado una devolución ni la conservación automática del acceso hasta fin de período].",
+        "Cuando Mercado Pago informa una suscripción cancelada, el código de Nito cambia la cuenta a un estado de falta de pago. Una pausa o un pago fallido también puede modificar el estado de la suscripción y afectar el acceso según las reglas del Servicio. La baja de la suscripción no equivale por sí sola a una solicitud de eliminación de datos. Se respetarán los derechos de revocación, devolución y demás derechos legalmente aplicables."
+      ]
+    },
+    {
+      "title": "5. Notificaciones y uso aceptable",
+      "paragraphs": [
+        "Sos responsable de contar con una base legal válida para cargar datos de terceros y contactarlos. Cuando corresponda, debés obtener y conservar su consentimiento, informar la finalidad del contacto y respetar las solicitudes de no recibir mensajes. Se prohíben el spam, los mensajes abusivos, el fraude y las actividades ilícitas. Las funciones vinculadas con WhatsApp u otros canales están sujetas a las reglas y disponibilidad de sus proveedores; Nito no garantiza la entrega o lectura de cada mensaje."
+      ]
+    },
+    {
+      "title": "6. Datos y confidencialidad",
+      "paragraphs": [
+        "Los datos y contenidos que cargás no pasan a ser propiedad del Titular. Debés contar con autorización para tratarlos. El Titular los tratará para prestar el Servicio y conforme a las instrucciones lícitas del usuario y a la Política de Privacidad. No podrá utilizarlos para fines propios incompatibles con la prestación ni divulgarlos sin fundamento legal. Cada parte conserva las obligaciones que le correspondan por ley.",
+        "Al finalizar el Servicio se coordinará, a solicitud del usuario, la restitución o exportación de los datos que corresponda y su posterior eliminación, conforme a la normativa aplicable. Las condiciones concretas, los plazos y el tratamiento de respaldos deben informarse antes de publicar esta versión. [PENDIENTE: confirmar procedimiento y plazos operativos]."
+      ]
+    },
+    {
+      "title": "7. Propiedad intelectual",
+      "paragraphs": [
+        "El software, la marca, el diseño y los contenidos propios de Nito pertenecen al Titular o a sus respectivos licenciantes. Se otorga al usuario un permiso de uso limitado al Servicio y a su plan. No se autoriza la copia, distribución o explotación del software fuera de lo permitido por la ley o por autorización expresa. Esta cláusula no alcanza a los datos y contenidos del usuario."
+      ]
+    },
+    {
+      "title": "8. Disponibilidad y responsabilidad",
+      "paragraphs": [
+        "El Servicio puede presentar errores o interrupciones. El Titular adoptará medidas razonables de mantenimiento y seguridad. La disponibilidad de servicios externos depende también de sus proveedores. El usuario debe verificar la información que ingresa y los registros que utiliza para su gestión.",
+        "En la medida permitida por la ley, se excluye la responsabilidad por daños indirectos y lucro cesante. Para los supuestos en que sea legalmente válido, la responsabilidad acumulada se limita a lo abonado por la suscripción en los doce meses anteriores al hecho. Estas limitaciones no alcanzan al dolo, la culpa grave ni a responsabilidades o derechos que no puedan excluirse o limitarse legalmente, incluidos los derivados de normas imperativas de consumo y protección de datos."
+      ]
+    },
+    {
+      "title": "9. Cambios del Servicio y de estos términos",
+      "paragraphs": [
+        "Los cambios relevantes se comunicarán con antelación razonable, indicando su fecha de vigencia. No se eliminarán funciones esenciales de un período contratado sin informar cómo se tratará la situación del usuario. Si un cambio afecta sustancialmente el servicio contratado, se ofrecerá la posibilidad de cancelar y se aplicará la solución o devolución que corresponda. Cuando sea necesaria una nueva aceptación, se solicitará expresamente."
+      ]
+    },
+    {
+      "title": "10. Ley aplicable y jurisdicción",
+      "paragraphs": [
+        "Se aplica la legislación de la República Argentina. En los casos en que sea válida la elección de jurisdicción, las controversias se someterán a los tribunales ordinarios competentes de Mar del Plata, Provincia de Buenos Aires. Esta previsión no desplaza fueros obligatorios ni limita los derechos que correspondan al usuario por normas imperativas. La Política de Privacidad complementa estos términos en materia de datos personales."
+      ]
+    }
+  ],
+  "privacy": [
+    {
+      "title": "1. Responsable y alcance",
+      "paragraphs": [
+        "Esta Política describe el tratamiento de datos personales en Nito Socios, disponible en nitoapp.online. Responsable del tratamiento de los datos de cuenta y de la relación comercial: Juan Pablo González (persona humana). Domicilio: Arana y Goiri 4798. Correo para consultas y ejercicio de derechos: info@nitoapp.online."
+      ]
+    },
+    {
+      "title": "2. Datos tratados y finalidades",
+      "paragraphs": [
+        "Datos de cuenta y contratación: nombre, correo electrónico y datos de facturación que se soliciten para registrar la cuenta, administrar la suscripción, atender consultas y cumplir obligaciones legales. Debe informarse al solicitar cada dato si es obligatorio u opcional y las consecuencias de no proporcionarlo.",
+        "Datos cargados por el usuario: nombres, teléfonos, información sobre cuotas, pagos y montos adeudados de sus socios o clientes, en la medida en que se utilicen esas funciones. Se tratan para permitir la gestión solicitada por el usuario y las notificaciones que este disponga. [PENDIENTE: verificar y completar las categorías realmente tratadas, incluidos datos de menores si corresponde].",
+        "Las finalidades de cuenta comprenden la prestación del Servicio, la gestión de suscripciones, la seguridad y el envío de comunicaciones técnicas y de soporte. Los datos no se utilizarán para finalidades incompatibles con las informadas. Las comunicaciones promocionales, si se implementan, deberán contar con la base legal y el mecanismo de baja que correspondan.",
+        "Solicitudes de baja: el formulario puede recoger nombre, correo, teléfono y motivo opcional, junto con un código de trámite y su estado, para tramitar la cancelación y responder al solicitante. Se conservan los registros necesarios para gestionar y acreditar la solicitud, conforme a los criterios de conservación de esta Política."
+      ]
+    },
+    {
+      "title": "3. Roles sobre los datos de socios o clientes",
+      "paragraphs": [
+        "El usuario o institución que decide para qué y cómo utilizar los datos de sus socios o clientes es responsable de ese tratamiento y de informar a las personas involucradas. Nito actúa por su cuenta para brindar las funciones contratadas, de acuerdo con sus instrucciones lícitas y la normativa aplicable. Esto no excluye las obligaciones propias de Nito como prestador del tratamiento.",
+        "Nito no utilizará esos datos para fines propios incompatibles ni los comunicará fuera de lo necesario para prestar el Servicio o cumplir una obligación legal. Las condiciones del encargo deben contemplar confidencialidad, seguridad, proveedores intervinientes, asistencia ante solicitudes de derechos y devolución o eliminación al terminar el servicio."
+      ]
+    },
+    {
+      "title": "4. Fundamento del tratamiento",
+      "paragraphs": [
+        "Los datos se tratan sobre la base del consentimiento cuando sea exigible, de la relación contractual en la medida necesaria para su ejecución y de las obligaciones legales aplicables. El usuario debe contar con una base legal válida para cargar datos de terceros y enviarles notificaciones. Cuando el tratamiento requiera consentimiento, este debe ser informado y podrá revocarse conforme a la ley, sin efectos retroactivos."
+      ]
+    },
+    {
+      "title": "5. Proveedores, destinatarios y transferencias",
+      "paragraphs": [
+        "Supabase se utiliza como infraestructura de base de datos y autenticación para las cuentas y la información gestionada en Nito. Mercado Pago procesa las suscripciones a Nito y, cuando la función esté habilitada y conectada por la institución, los cobros integrados a socios. Para la suscripción a Nito se le envían el correo del pagador, una referencia de la cuenta, la descripción, el importe, la moneda y la periodicidad. Nito recibe y conserva identificadores y estados de suscripción o pago.",
+        "El código incorpora Resend para el envío de recordatorios por correo, cuando la función y su envío se encuentran habilitados. En esos casos se transmiten la dirección del destinatario y el contenido del mensaje. Las notificaciones por WhatsApp, cuando se utilicen, implican el tratamiento del número de destino y el contenido por los servicios intervinientes. Cada proveedor puede tener obligaciones y políticas propias según su intervención.",
+        "Solo se transmitirá la información necesaria para la finalidad correspondiente. [PENDIENTE: confirmar los proveedores efectivamente activos en producción, la modalidad y proveedores de WhatsApp, los países de alojamiento y acceso, y las garantías y mecanismos legales de las transferencias internacionales. El código local no permite verificar la región de alojamiento ni todos los contratos con proveedores]."
+      ]
+    },
+    {
+      "title": "6. Conservación, baja y respaldos",
+      "paragraphs": [
+        "Los datos se conservarán mientras sean necesarios y pertinentes para las finalidades informadas y por los plazos que impongan obligaciones legales. La baja de una cuenta no supone necesariamente la eliminación de información que deba conservarse por ley; esos datos se restringirán a la finalidad que justifique su conservación.",
+        "Para datos tratados por cuenta de una institución, al finalizar el servicio se aplicará el régimen de restitución y destrucción que corresponda según el contrato y el artículo 25 de la Ley 25.326. Cualquier conservación posterior deberá contar con el fundamento y las condiciones legalmente exigibles. [PENDIENTE: definir plazos de exportación, eliminación de datos activos y depuración de respaldos, y las categorías sujetas a conservación legal]."
+      ]
+    },
+    {
+      "title": "7. Seguridad y confidencialidad",
+      "paragraphs": [
+        "El Titular debe adoptar medidas técnicas y organizativas adecuadas para evitar la adulteración, pérdida, consulta o tratamiento no autorizado de datos, y exigir confidencialidad a quienes accedan a ellos. Ningún sistema elimina por completo los riesgos. Ante un incidente se adoptarán medidas de contención y se realizarán las comunicaciones que correspondan según la normativa y las obligaciones contractuales. [PENDIENTE: validar las medidas efectivamente implementadas y el procedimiento de incidentes]."
+      ]
+    },
+    {
+      "title": "8. Derechos y solicitudes",
+      "paragraphs": [
+        "Las personas titulares de los datos pueden solicitar acceso, rectificación, actualización, supresión o confidencialidad, según corresponda, mediante el correo de contacto de esta Política y acreditando su identidad por medios razonables. El acceso se responderá dentro de diez días corridos de recibida la intimación fehaciente; la rectificación, actualización o supresión que corresponda se atenderá en un máximo de cinco días hábiles.",
+        "El acceso es gratuito a intervalos no inferiores a seis meses, salvo interés legítimo que justifique un plazo menor. La supresión puede no proceder cuando afecte derechos o intereses legítimos de terceros o exista una obligación legal de conservar los datos. Las solicitudes sobre datos administrados por una institución se coordinarán con ella, sin impedir el ejercicio de los derechos del titular.",
+        "La Agencia de Acceso a la Información Pública, órgano de control de la Ley 25.326, tiene atribuciones para atender denuncias y reclamos por incumplimientos de las normas de protección de datos personales. Información y canales de reclamo: https://www.argentina.gob.ar/aaip/datospersonales."
+      ]
+    },
+    {
+      "title": "9. Cookies, registros técnicos y menores",
+      "paragraphs": [
+        "[PENDIENTE: relevar e informar las cookies, herramientas de analítica y registros técnicos realmente utilizados, sus finalidades, proveedores y duración. Verificar si se tratan datos de menores y, de ser así, detallar las condiciones de información, autorización y acceso aplicables. Esta sección no confirma que esos tratamientos se realicen]."
+      ]
+    },
+    {
+      "title": "10. Actualizaciones y contacto",
+      "paragraphs": [
+        "Los cambios relevantes de esta Política se comunicarán por un medio adecuado, indicando la fecha de entrada en vigencia. Cuando una nueva finalidad requiera consentimiento, se lo solicitará antes de comenzar ese tratamiento. Las consultas y solicitudes se reciben en info@nitoapp.online."
+      ]
+    }
+  ]
+}

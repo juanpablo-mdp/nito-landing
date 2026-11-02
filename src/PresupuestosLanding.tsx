@@ -117,8 +117,8 @@ export function PresupuestosLanding() {
 
             <footer>
                 <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
-                    <a href="/legales/politica_privacidad.pdf" target="_blank" rel="noopener noreferrer">Política de Privacidad</a>
-                    <a href="/legales/terminos_condiciones.pdf" target="_blank" rel="noopener noreferrer">Términos y Condiciones</a>
+                    <a href="/legales/politica-de-privacidad/" target="_blank" rel="noopener noreferrer">Política de Privacidad</a>
+                    <a href="/legales/terminos-y-condiciones/" target="_blank" rel="noopener noreferrer">Términos y Condiciones</a>
                 </div>
                 <p>
                     © {new Date().getFullYear()} Nito App. Todos los derechos reservados.
